@@ -1,24 +1,17 @@
-## SiYuan Chrome Extension 
-
-[中文](https://github.com/siyuan-note/siyuan-chrome/blob/main/README_zh_CN.md)
+## Sillot Chromium Browser Extension
 
 ### 💡 Introduction
 
-A Chrome extension for SiYuan.
+Chrome/edge extension for Sillot.
 
 ### 🛠️ Setup
 
-* Chrome: [SiYuan - Chrome Web Store](https://chrome.google.com/webstore/detail/siyuan/hkcgjbeblifaincobbcfiffbpgoafepk)
-* Edge: [SiYuan - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/siyuan/lclhdlhleinlppggbbgimbekofanbkcf)
-* GitHub: [siyuan-note/siyuan-chrome](https://github.com/siyuan-note/siyuan-chrome)
+* Chrome: ...
+* Edge: ...
+* [GitHub](https://github.com/K-Sillot/Sillot-Be)
 
 ### ✨  Usages
 
-1. Install the extension, configure the API token in the extended options (token can be viewed in SiYuan Settings - About)
-2. Select the content to be clipped on the web page, and then select "Copy to SiYuan" from the right-click menu
-3. Paste in SiYuan
-
-### 🔒 Privacy policy
-
-* All data is saved on a device under the full control of the user himself
-* No usage data will be collected
+1. 安装扩展，在扩展的选项中配置 API token
+2. 在 Web 页面上选择需要剪藏的内容，然后在右键菜单中选择 “Copy to Sillot”
+3. 在汐洛中粘贴

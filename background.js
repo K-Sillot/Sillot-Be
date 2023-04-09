@@ -1,7 +1,7 @@
 chrome.contextMenus.removeAll(function () {
   chrome.contextMenus.create({
     id: 'copy-to-siyuan',
-    title: 'Copy to SiYuan',
+    title: 'Copy to Sillot',
     contexts: ['selection', 'image'],
   })
 

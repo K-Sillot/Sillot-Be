@@ -122,7 +122,7 @@ const siyuanSendUpload = async (tempElement, tabId, srcUrl, type, article, href)
   }
 
   chrome.storage.sync.get({
-    ip: 'http://127.0.0.1:6806',
+    ip: 'http://127.0.0.1:58131',
     showTip: true,
     token: '',
     notebook: '',

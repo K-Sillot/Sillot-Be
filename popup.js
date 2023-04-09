@@ -40,12 +40,12 @@ document.addEventListener('DOMContentLoaded', () => {
   })
 
   chrome.storage.sync.get({
-    ip: 'http://127.0.0.1:6806',
+    ip: 'http://127.0.0.1:58131',
     showTip: true,
     token: '',
     notebook: '',
   }, function (items) {
-    ipElement.value = items.ip || 'http://127.0.0.1:6806'
+    ipElement.value = items.ip || 'http://127.0.0.1:58131'
     tokenElement.value = items.token || ''
     showTipElement.checked = items.showTip
     notebooksElement.setAttribute("data-id", items.notebook)
@@ -101,7 +101,7 @@ const siyuanGetReadability = (tabId) => {
   try {
     siyuanShowTip('Clipping, please wait a moment...', 60 * 1000)
   } catch (e) {
-    alert("After installing the SiYuan extension for the first time, please refresh the page before using it")
+    alert("After installing the Sillot extension for the first time, please refresh the page before using it")
     window.location.reload()
     return
   }
