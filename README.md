@@ -4,6 +4,8 @@
 
 Chrome/edge extension for Sillot.
 
+Chromium 内核版本要求同 Sillot 主体
+
 ### 🛠️ Setup
 
 * Chrome: ...

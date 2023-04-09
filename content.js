@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
       return navigator.clipboard.writeText(textToCopy)
     }
 
-    let textArea = document.createElement('textarea')
+    const textArea = document.createElement('textarea')
     textArea.value = textToCopy
     textArea.style.position = 'fixed'
     textArea.style.left = '-999999px'
@@ -66,7 +66,7 @@ const siyuanShowTip = (msg, timeout) => {
 }
 
 const siyuanClearTip = () => {
-  let messageElement = document.getElementById('siyuanmessage')
+  const messageElement = document.getElementById('siyuanmessage')
   if (!messageElement) {
     return
   }
@@ -132,9 +132,9 @@ const siyuanSendUpload = async (tempElement, tabId, srcUrl, type, article, href)
       return
     }
 
-    let title = article && article.title ? article.title : "";
-    let siteName = article && article.siteName ? article.siteName : "";
-    let excerpt = article && article.excerpt ? article.excerpt : "";
+    const title = article?.title ? article.title : "";
+    const siteName = article?.siteName ? article.siteName : "";
+    const excerpt = article?.excerpt ? article.excerpt : "";
     const msgJSON = {
       fetchFileErr,
       files: files,
